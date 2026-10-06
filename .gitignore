@@ -1,0 +1,38 @@
+# Secrets / credentials
+.env
+*.pem
+*.key
+*.pfx
+*.p12
+credentials.json
+secrets.json
+
+# Azure CLI local files
+.azure/
+.azureclitoken
+azureProfile.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Terraform state if used later
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Local test artifacts
+/tmp/
